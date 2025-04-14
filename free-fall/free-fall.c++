@@ -16,7 +16,7 @@ int main() {
         std::cout.precision(4);
         std::cout << std::fixed << time << "       " << height << std::endl;
         time += time_step;
-        height = initial_height - 0.5 * gravity * time * time;
+        height = initial_height - 0.5 * gravity * time * time; // from d = 1/2 * g * t^2
     }
 
     return 0;
